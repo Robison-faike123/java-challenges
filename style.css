@@ -1,0 +1,124 @@
+body {
+    font-family: 'lato',sans-serif;
+    background: #eee;
+}
+#header {
+    position: fixed;
+    margin-bottom: 2rem;
+    background-color: #eee;
+    top: 0;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: flex-end;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav img {
+    width: 300px;
+    height: 34.17px;
+}
+#form-contact {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 7rem;
+}
+#form-p {
+    font-size: 1.5rem;
+}
+#Submit {
+    background-color: #f1c40f;
+    border: none;
+    max-width: 150px;
+    padding: 25px auto;
+    font-size: 1.0rem;
+    font-weight: 900;
+    width: 100%;
+}
+.cards {
+    padding-top: 100px ;
+}
+.card1 {
+    margin: 50px auto;
+}
+#How-it-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.dollar1 {
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dollar1 h4 {
+    background-color: #ddd;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.dollar1 h5 {
+    font-weight: 600;
+}
+.dollar {
+    display: flex;
+    flex-direction: row;
+    gap: 1.0rem;
+    margin: 2rem auto;
+  
+}
+.dollar1 button {
+    margin: 1rem auto;
+    border: 0;
+    background-color: darkorange;
+    padding: 8px 12px;
+    font-weight: 400;
+}
+
+.icon {
+    color: darkorange;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+}
+footer {
+    background-color: #ddd;
+    text-align: right;
+}
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    gap: 1rem;
+}
+footer nav ul a {
+    text-align: right;
+}
+@media only screen and (max-width: 600px) {
+    .menu {
+       flex-direction: column;
+    }
+    .cards {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  .dollar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
